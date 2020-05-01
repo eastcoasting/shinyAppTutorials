@@ -11,9 +11,11 @@
 // BEGIN
 const customHref = function(link){
     const links = document.getElementsByTagName("a");
-    Object.entries(links).forEach( (elem, i) => {
+    Object.entries(links).forEach( elem => {
+        console.log(elem);
         if(elem[1].getAttribute("data-value") === link){
-            elem[1].click()
+            elem[1].click();
+            elem[1].window.scrollTo(0,0);
         }
     });
-}
+};
