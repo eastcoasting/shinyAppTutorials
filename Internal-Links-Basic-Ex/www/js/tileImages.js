@@ -1,0 +1,9 @@
+////////////////////////////////////////////////////////////////////////////////
+// DEPENDENCIES: NA
+// STATUS: working
+// COMMENTS: this script was updated to js ES6
+////////////////////////////////////////////////////////////////////////////////
+// BEGIN
+$( document ).ready(function() {
+    $( ".navbar .container-fluid" ).append( '<a href="http://google.com"><img src="CI.png" align="right"></a>' );
+});
