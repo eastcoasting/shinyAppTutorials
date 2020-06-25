@@ -5,5 +5,6 @@
 ////////////////////////////////////////////////////////////////////////////////
 // BEGIN
 $( document ).ready(function() {
-    $( ".navbar .container-fluid" ).append( '<a href="https://www.conservation.org/"><img src="CI.png" align="right"></a>' '<a href="https://www.iucn.org/"><img src="iucn.png" align="right"></a>');
+    $( ".navbar .container-fluid" ).append( '<a href="https://www.conservation.org/"><img src="CI.png" align="right"></a>' 
+                                            '<a href="https://www.iucn.org/"><img src="iucn.png" align="right"></a>');
 });
