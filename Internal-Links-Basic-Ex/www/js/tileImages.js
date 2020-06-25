@@ -5,7 +5,5 @@
 ////////////////////////////////////////////////////////////////////////////////
 // BEGIN
 $( document ).ready(function() {
-    $( ".navbar .container-fluid" ).append('<ahref="https://www.conservation.org/"><img src=\"CI.png\" alt=\"alt\" style=\"float:right;width:33px;height:50px;padding-top:5px;padding-bottom:5px;\"> </a>`', '<ahref="https://www.iucn.org/"><img src=\"IUCN.png\" alt=\"alt\" style=\"float:right;width:33px;height:50px;padding-top:5px;padding-bottom:5px;\"> </a>`');
+    $( ".navbar .container-fluid" ).append('<a href="https://www.conservation.org/"><img src=\"CI.png\" alt=\"alt\" style=\"float:right;width:156.88px;height:60px;padding-top:5px;padding-bottom:5px;\"> </a>', '<a href="https://www.conservation.org/"><img src=\"IUCN.png\" alt=\"alt\" style=\"float:right;width:51.92px;height:60px;padding-top:5px;padding-bottom:5px;\"> </a>');
 });
-
-
